@@ -67,8 +67,8 @@
 ### Node Packages / Dependencies Used
 - Alan Ai
 - Mui icons
-- mui material
-- mui styles
+- Mui material
+- Mui styles
 - reduxjs toolkit
 - axios
 - react redux
