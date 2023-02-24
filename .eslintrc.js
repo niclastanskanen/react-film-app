@@ -15,11 +15,9 @@ module.exports = {
   },
   plugins: [
     'react',
-    'mui',
   ],
   rules: {
     'react/react-in-jsx-scope': 0,
-    'mui/rule-name': 2,
     'import/extensions': 0,
     'react/prop-types': 0,
     'linebreak-style': 0,
