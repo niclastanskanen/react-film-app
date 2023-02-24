@@ -17,4 +17,10 @@ export default makeStyles((theme) => ({
       display: 'none',
     },
   },
+  linkButton: {
+    '&:hover': {
+      color: 'white !important',
+      textDecoration: 'none',
+    },
+  },
 }));
