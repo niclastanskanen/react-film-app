@@ -65,14 +65,15 @@
 
 ### Languages and Frameworks Used
 ### Node Packages / Dependencies Used
-- Alan Ai
-- Mui icons
-- Mui material
-- Mui styles
-- reduxjs toolkit
-- axios
-- react redux
-- react router dom
+- Alan Ai - https://alan.app/docs/client-api/web/react/
+- Material UI - https://mui.com/material-ui/getting-started/installation/
+  - Mui icons
+  - Mui material
+  - Mui styles
+- Reduxjs toolkit - https://redux-toolkit.js.org/
+- axios - https://axios-http.com/docs/intro
+- react redux - https://react-redux.js.org/
+- react router dom - https://reactrouter.com/en/main
 
 ### Programs and Tools Used
 
