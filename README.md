@@ -65,7 +65,13 @@
 
 ### Languages and Frameworks Used
 ### Node Packages / Dependencies Used
-
+- Alan Ai
+- Mui icons
+- mui material
+- mui styles
+- reduxjs toolkit
+- axios
+- react redux
 
 ### Programs and Tools Used
 
