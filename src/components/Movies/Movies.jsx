@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Movies = () => {
-  console.log(movies);
+  console.log('movies');
   return (
     <div>
       Movies
