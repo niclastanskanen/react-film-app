@@ -56,8 +56,9 @@
 ### Fixed Bugs
 
 I got an error with the middleware in the APP. After reading more in the documentation, I saw that I had missed that I need to have middleware default in the API. Fixed according to the picture with comments showing what was missing
-![Middleware API](docs/image/bug-api.png)
-![Middleware API](docs/image/bug-fix-api.png)
+
+<img src="docs/image/bug-fix-api.png" alt="Middleware API" width="50%" height="50%">
+<img src="docs/image/bug-api.png" alt="Middleware API" width="50%" height="50%">
 
 
 
