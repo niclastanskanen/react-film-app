@@ -8,4 +8,10 @@ export default makeStyles((theme) => ({
       width: '100%',
     },
   },
+  input: {
+    [theme.breakpoints.down('sm')]: {
+      marginTop: '-10px',
+      marginBottom: '10px',
+    },
+  },
 }));
