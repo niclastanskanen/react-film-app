@@ -3,6 +3,7 @@ import { Divider, List, ListItem, ListItemText, ListSubheader, ListItemIcon, Box
 import { Link } from 'react-router-dom';
 import { useTheme } from '@mui/material/styles';
 
+import { useGetGenresQuery } from '../../services/TMDB';
 import useStyles from './styles';
 
 const categories = [
@@ -24,6 +25,8 @@ const blueLogo = 'https://fontmeme.com/permalink/210930/6854ae5c7f76597cf8680e48
 const Sidebar = ({ setMobileOpen }) => {
   const theme = useTheme();
   const classes = useStyles();
+  const { data, isFetching } = useGetGenresQuery();
+  console.log(data);
 
   return (
     <>
