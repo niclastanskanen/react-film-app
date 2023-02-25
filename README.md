@@ -75,6 +75,8 @@
 - axios - https://axios-http.com/docs/intro
 - react redux - https://react-redux.js.org/
 - react router dom - https://reactrouter.com/en/main
+- Movie Database - https://www.themoviedb.org/
+ - API - https://developers.themoviedb.org/3/getting-started/introduction
 
 ### Programs and Tools Used
 
