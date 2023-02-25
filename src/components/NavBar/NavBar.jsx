@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 import { useTheme } from '@mui/material/styles';
 
 import useStyles from './styles';
+import { fetchToken } from '../../utils';
 import { Sidebar, Search } from '../index';
 
 const NavBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
-
   const classes = useStyles();
   const isMobile = useMediaQuery('(max-width:600px)');
   const theme = useTheme();
-  const isAuthenticated = true;
+  const isAuthenticated = false;
 
   return (
     <>
@@ -42,7 +42,7 @@ const NavBar = () => {
             {!isAuthenticated ? (
               <Button
                 color="inherit"
-                onClick={() => {}}
+                onClick={fetchToken}
               >
                 Login &nbsp; <AccountCircle />
               </Button>
