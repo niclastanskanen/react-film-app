@@ -9,6 +9,7 @@ import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
 import useStyles from './styles';
 import { useGetMovieQuery, useGetRecommendationsQuery } from '../../services/TMDB';
 import genreIcons from '../../assets/genres';
+import { MovieList } from '..';
 
 const MovieInformation = () => {
   const { id } = useParams();
@@ -28,8 +29,6 @@ const MovieInformation = () => {
   const addToWatchlist = () => {
 
   };
-
-  console.log(recommendations);
 
   if (isFetching) {
     return (
@@ -140,6 +139,9 @@ const MovieInformation = () => {
         <Typography variant="h3" gutterBottom align="center">
           You might also like
         </Typography>
+        {recommendations
+          ? <MovieList movies={recommendations} numberOfMovies={12} />
+          : <Box>Sorry, nothing was found.</Box>}
       </Box>
     </Grid>
   );
