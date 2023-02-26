@@ -115,7 +115,7 @@ const MovieInformation = () => {
               <ButtonGroup size="small" variant="outlined">
                 <Button target="_blank" rel="noopener noreferrer" href={data?.homepage} endIcon={<Language />}>Website</Button>
                 <Button target="_blank" rel="noopener noreferrer" href={`https://www.imdb.com/title/${data?.imdb_id}`} endIcon={<MovieIcon />}>IMDB</Button>
-                <Button onClick={() => {}} href="#" endIcon={<Theaters />}>Trailer</Button>
+                <Button onClick={() => setOpen(true)} href="#" endIcon={<Theaters />}>Trailer</Button>
               </ButtonGroup>
             </Grid>
             <Grid item xs={12} sm={6} className={classes.buttonsContainer}>
@@ -150,11 +150,10 @@ const MovieInformation = () => {
         open={open}
         onClose={() => setOpen(false)}
       >
-        {data.videos.results.length > 0 && (
+        {data?.videos?.results?.length > 0 && (
           <iframe
             autoPlay
             className={classes.video}
-            frameBorder="0"
             title="Trailer"
             src={`https://www.youtube.com/embed/${data.videos.results[0].key}`}
             allow="autoplay"
