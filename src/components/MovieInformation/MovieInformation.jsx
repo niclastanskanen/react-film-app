@@ -16,6 +16,8 @@ const MovieInformation = () => {
   const classes = useStyles();
   const dispatch = useDispatch();
 
+  const { data: recommendations, isFetching: isRecommendationsFetching } = useGetRecommendationsQuery({ list: '/recommendations', movie_id: id });
+
   const isMovieFavorited = false;
   const isMovieWatchlisted = false;
 
@@ -26,6 +28,8 @@ const MovieInformation = () => {
   const addToWatchlist = () => {
 
   };
+
+  console.log(recommendations);
 
   if (isFetching) {
     return (
