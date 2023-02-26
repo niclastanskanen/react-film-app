@@ -40,6 +40,7 @@
 ### Wireframes
 ### Color-scheme
 
+![Color-scheme](docs/image/colorscheme.png)
 
 
 ### Typography
