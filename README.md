@@ -88,10 +88,10 @@ I got an error with the middleware in the APP. After reading more in the documen
   - Mui Theming - https://mui.com/material-ui/customization/theming/
 - Reduxjs toolkit - https://redux-toolkit.js.org/
 - axios - https://axios-http.com/docs/intro
-- react redux - https://react-redux.js.org/
-- react router dom - https://reactrouter.com/en/main
+- React redux - https://react-redux.js.org/
+- React router dom - https://reactrouter.com/en/main
 - Movie Database - https://www.themoviedb.org/
- - API - https://developers.themoviedb.org/3/getting-started/introduction
+  - API - https://developers.themoviedb.org/3/getting-started/introduction
 
 ### Programs and Tools Used
 
