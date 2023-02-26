@@ -92,7 +92,7 @@ const MovieInformation = () => {
               <Typography color="textSecondary">{character.character.split('/')[0]}</Typography>
             </Grid>
             )
-          ))}
+          )).slice(0, 6)}
         </Grid>
       </Grid>
     </Grid>
