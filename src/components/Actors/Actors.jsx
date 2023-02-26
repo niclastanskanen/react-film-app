@@ -5,6 +5,7 @@ import { ArrowBack } from '@mui/icons-material';
 
 import useStyles from './styles';
 import { useGetActorsDetailsQuery, useGetMoviesByActorIdQuery } from '../../services/TMDB.js';
+import { MovieList } from '..';
 
 const Actors = () => {
   const { id } = useParams();
@@ -65,6 +66,7 @@ const Actors = () => {
       </Grid>
       <Box margin="2rem 0">
         <Typography variant="h2" gutterBottom align="center">Movies</Typography>
+        {movies && <MovieList movies={movies} numberOfMovies={12} />}
       </Box>
     </>
   );
