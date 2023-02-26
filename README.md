@@ -1,6 +1,6 @@
 # This is an online database of information related to movies. I use The Movie Database API and design it with inspiration from Netflix. Built with React, designed with Material UI
 
-![React](https://skillicons.dev/icons?i=react)
+![React](https://skillicons.dev/icons?i=react,materialui)
 
 ## Table of Contents
 
