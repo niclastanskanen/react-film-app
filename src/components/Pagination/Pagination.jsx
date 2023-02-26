@@ -1,13 +1,23 @@
-import React from 'react'
-import { Typography, Button } from '@mui/material'
+import React from 'react';
+import { Typography, Button } from '@mui/material';
 
-const useStyles from './styles'
+import useStyles from './styles';
 
 const Pagination = () => {
-    const styles = useStyles();
-  return (
-    <div>Pagination</div>
-  )
-}
+  const classes = useStyles();
+  const currentPage = 1;
 
-export default Pagination
+  return (
+    <div className={classes.container}>
+      <Button className={classes.button} variant="contained" color="primary" type="button">
+        Prev
+      </Button>
+      <Typography variant="h4" className={classes.pageNumber}>{currentPage}</Typography>
+      <Button className={classes.button} variant="contained" color="primary" type="button">
+        Next
+      </Button>
+    </div>
+  );
+};
+
+export default Pagination;
