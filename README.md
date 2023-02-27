@@ -21,7 +21,7 @@
   - [Profile](#profile)
   - [Movies](#movies)
   - [Actors](#actors)
-  - [Ai Alan](#ai-alan)
+  - [Alan Ai](#alan-ai)
 - [Testing](#testing)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
@@ -156,7 +156,7 @@ Color mode - Light/Dark
 <img src='./docs/image/actors.png' height="400px">
 <img src='./docs/image/actors-dark.png' height="400px">
 
-### Ai Alan
+### Alan Ai
 
 <img src='./docs/image/ai-alan.png'>
 
