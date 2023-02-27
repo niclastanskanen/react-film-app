@@ -1,4 +1,4 @@
-# An online database of movie information. The Movie Database API is used and Netflix is used as an inspiration for the design.
+# An online database of movie information. The Movie Database API is used and old Netflix is used as an inspiration for the design.
 
 ## Built with React, designed with Material UI
 
@@ -6,11 +6,12 @@
 
 ![Axios](https://axios-http.com/assets/logo.svg)
 
+![Netlify](https://skillicons.dev/icons?i=netlify)
+
 ## Table of Contents
 
 - [User Experience (UX)](#user-experience-ux)
   - [Design](#design)
-    - [Wireframes](#wireframes)
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
 - [Features](#features)
@@ -18,8 +19,9 @@
   - [Navigation](#navigation)
   - [Sidebar](#sidebar)
   - [Profile](#profile)
-  - [Actors](#actors)
   - [Movies](#movies)
+  - [Actors](#actors)
+  - [Ai Alan](#ai-alan)
 - [Testing](#testing)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
@@ -31,19 +33,13 @@
 - [Deployment](#deployment)
   - [Forking the GitHub Repository](#forking-the-github-repository)
   - [Making a Local Clone](#making-a-local-clone)
-  - [Deploying with Heroku](#deploying-with-heroku)
+  - [Deploying with Netlify](#deploying-with-heroku)
 - [Credits](#credits)
   - [Acknowledgments](#acknowledgments)
-
-[React](https://reactjs.org/)
-
 
 
 ## User Experience UX
 
-
-### Design
-### Wireframes
 ### Color-scheme
 
 ![Color-scheme](docs/image/colorscheme.png)
@@ -56,12 +52,42 @@ Roboto - https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=
 
 ## Features
 
+Color mode - Light/Dark
+
 ### Home Page
+
+<img src='./docs/image/homepage.png' height="400px">
+<img src='./docs/image/homepage-dark.png' height="400px">
+
 ### Navigation
+
+<img src='./docs/image/navbar.png' width="700px">
+<img src='./docs/image/navbar-dark.png' width="700px">
+
 ### Sidebar
+
+<img src='./docs/image/sidebar.png' height="400px">
+<img src='./docs/image/sidebar-dark.png' height="400px">
+
+
+
 ### Profile
-### Actors
+
+<img src='./docs/image/profile.png' height="400px">
+<img src='./docs/image/profile-dark.png' height="400px">
+
+
 ### Movies
+
+<img src='./docs/image/movies.png' height="400px">
+<img src='./docs/image/movies-dark.png' height="400px">
+
+### Actors
+
+<img src='./docs/image/actors.png' height="400px">
+<img src='./docs/image/actors-dark.png' height="400px">
+
+### Ai Alan
 
 <hr>
 
@@ -85,32 +111,94 @@ I got an error with the middleware in the APP. After reading more in the documen
 ## Technologies Used
 
 ### Languages and Frameworks Used
+React.js - https://reactjs.org/
+
+JavaScript - https://www.javascript.com/
+
 ### Node Packages / Dependencies Used
 - Alan Ai - https://alan.app/docs/client-api/web/react/
 - Material UI - https://mui.com/material-ui/getting-started/installation/
-  - Mui icons
-  - Mui material
-  - Mui styles
+  - Mui Icons - https://mui.com/material-ui/material-icons/
+  - Mui Material
+  - Mui Styles - https://mui.com/system/styles/basics/
   - Mui Theming - https://mui.com/material-ui/customization/theming/
-- Reduxjs toolkit - https://redux-toolkit.js.org/
+- Redux.js Toolkit - https://redux-toolkit.js.org/
 - axios - https://axios-http.com/docs/intro
-- React redux - https://react-redux.js.org/
-- React router dom - https://reactrouter.com/en/main
+- React Redux - https://react-redux.js.org/
+- React Router Dom - https://reactrouter.com/en/main
 - Movie Database - https://www.themoviedb.org/
   - API - https://developers.themoviedb.org/3/getting-started/introduction
+- @emotion/react - https://www.npmjs.com/package/@emotion/react
+- @emotion/styled - https://www.npmjs.com/package/@emotion/styled
 
 ### Programs and Tools Used
+
+- [Canva](https://www.canva.com/)
+- [Netlify](https://www.netlify.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [ESLint](https://eslint.org/)
+
 
 <hr>
 
 ## Deployment
 
-### Forking the gitHub Repository
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on
+our GitHub account to view and/or make changes without affecting the original
+repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub
+   Repository](https://github.com/niclastanskanen/project-5-api)
+1. At the top of the Repository (not top of page) just above the "Settings"
+   Button on the menu, locate the "Fork" Button.
+1. Click the button (not the number to the right) and you should now have a copy
+   of the original repository in your GitHub account.
+
 ### Making a Local Clone
-### Deploying with Hostinger
+
+**NOTE**: It is a requirement of the project that you have Python version 3.8 or higher installed locally.
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/niclastanskanen/react-film-app).
+1. Under the repository name, click "Code".
+1. To clone the repository using HTTPS, under "HTTPS", copy the link.
+1. Open your local terminal with git installed
+1. Change the current working directory to the location where you want the cloned directory to be created.
+1. Type `git clone`, and then paste the URL you copied in Step 3.
+
+    ```console
+    ~$ git clone https://github.com/niclastanskanen/react-film-app
+    ```
+
+1. Press Enter. Your local clone will be created.
+
+    ```console
+    $ git clone https://github.com/niclastanskanen/react-film-app
+    > Cloning into `test-dir`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+    ```
+
+    [Click here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) for a more detailed explanation of the process above with pictures.
+
+1. Change the current working directory to the cloned project folder (this will be a child directory in the location you cloned the project).
+
+1. This guide assumes you have Node.js and npm installed locally, if this is not the case please install these now.
+1. From the terminal run the command `npm install` to install all project dependencies.
+1. Run the command `npm start` to run the application.
+
+### Deploying with Netlify
 
 <hr>
 
 ## Credits
+[TMDB Movie Database](https://www.themoviedb.org/)
+
 ### Acknowledgments
 
+Adrian for good support and mentor.
