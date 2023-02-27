@@ -1,6 +1,6 @@
 # An online database of movie information. The Movie Database API is used and old Netflix is used as an inspiration for the design.
 
-## Built with React, designed with Material UI
+## Built with React, designed with Material UI and smarter with Alan Ai.
 
 ![React](https://skillicons.dev/icons?i=react,materialui,redux)
 
@@ -39,6 +39,77 @@
 
 
 ## User Experience UX
+```
+Alan Ai command:
+  "What does this app do?', 'What can I do here?', 'What is this app about?"
+
+Alan Ai answer:
+  "This is Filmpire, an app where you can find the movies you love.
+  Try saying: 'Go to Comedy', 'Surprise me', 'Search for Superman', 'Make it dark', Log in"
+```
+```
+Alan Ai command:
+  "Make it dark"
+
+Alan Ai answer:
+  "Batman likes this, I hope you will as well."
+```
+```
+Alan Ai command:
+ "Make it light"
+
+Alan Ai answer:
+  "Ahh, my eyes hurt. Looks good though."
+```
+```
+Alan Ai command:
+  "Log in", "Login""
+
+Alan Ai answer:
+  "Logging you in."
+```
+```
+Alan Ai command:
+  "Log out", "Logout"
+
+Alan Ai answer:
+  "Logging you out."
+```
+```
+Alan Ai command:
+ "Go to (genre)"
+
+Alan Ai answer:
+  "Going to {genre}"
+```
+```
+Alan Ai command:
+  "Search for {genre}"
+
+Alan Ai answer:
+  "Searching for {genre}"
+```
+```
+Alan Ai command:
+  "It's Halloween.", "I want to get scared"
+
+Alan Ai answer:
+  "When Witches Go Riding and Black Cats Are Seen: The Moon Laughs and Whispers - It's Halloween"
+```
+```
+Alan Ai command:
+  "Give me something funny.", "I want to laugh"
+
+Alan Ai answer:
+  "Comedy it is. Enjoy!"
+```
+```
+Alan Ai command:
+  "Surprise me"
+
+Alan Ai answer:
+  Sounds good. Enjoy some {selectedCategory} movies.
+```
 
 ### Color-scheme
 
@@ -86,6 +157,8 @@ Color mode - Light/Dark
 <img src='./docs/image/actors-dark.png' height="400px">
 
 ### Ai Alan
+
+<img src='./docs/image/ai-alan.png'>
 
 <hr>
 
