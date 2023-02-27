@@ -66,9 +66,7 @@ Color mode - Light/Dark
 
 ### Sidebar
 
-<img src='./docs/image/sidebar.png' height="400px">
-<img src='./docs/image/sidebar-dark.png' height="400px">
-
+<img src='./docs/image/sidebar.png' height="400px"><img src='./docs/image/sidebar-dark.png' height="400px">
 
 
 ### Profile
