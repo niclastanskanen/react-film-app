@@ -272,4 +272,4 @@ repository by using the following steps...
 
 ### Acknowledgments
 
-Adrian for good support and mentor.
+Adrian for great support and mentor.
