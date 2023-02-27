@@ -6,7 +6,9 @@
 
 ![Axios](https://axios-http.com/assets/logo.svg)
 
-![Netlify](https://skillicons.dev/icons?i=netlify)
+## [Live Site](https://react-film-tanskanen.netlify.app/) <- :computer:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dd1801f4-4d3e-4f90-a6f9-9b83a8d3d59c/deploy-status)](https://app.netlify.com/sites/react-film-tanskanen/deploys)
 
 ## Table of Contents
 
